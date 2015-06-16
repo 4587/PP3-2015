@@ -36,9 +36,7 @@
     $tipo = $_POST['tipo']; //el nombre
     $email = $_POST['email'];
 
-    //encriptar password
-    //$password = md5($password);
-    //$password_again = md5($pass);
+  
 
     if ((strlen($password) > '7') and ( strlen($password_again) > '7') and ( $password == $password_again)) {
 
